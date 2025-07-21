@@ -1,4 +1,3 @@
-<img width="1838" height="5555" alt="image" src="https://github.com/user-attachments/assets/0cf9f9ae-2bf9-4b3d-bd93-ca35ba068092" /># 💼 Ankush Yadav — Personal Portfolio
 
 Hi, I'm Ankush Yadav — a passionate Full Stack Developer and AI/Data Science enthusiast.  
 This is my personal portfolio built using **HTML, CSS, and JavaScript**, fully responsive and modern.
@@ -11,7 +10,9 @@ This is my personal portfolio built using **HTML, CSS, and JavaScript**, fully r
 - **Responsive Design**
 - **Custom Animation**
 
----
+## 🔗 Live Demo
+[https://beautiful-centaur-ed08ff.netlify.app/]
+
 
 ## 📂 Folder Structure
 

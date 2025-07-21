@@ -1,0 +1,211 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  margin: 0.5rem 0;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, #1e3c72 0%, #2a5298 100%);
+  text-align: center;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.hero h1 span {
+  color: #00e6e6;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.75rem;
+  background: #00ffff;
+  color: #000;
+  font-weight: 700;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.hero .btn:hover {
+  background: #ffffff;
+  color: #000;
+  transform: scale(1.05);
+}
+
+section {
+  padding: 5rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects h2, .skills h2, .contact h2, .testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00ffff;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: #00ffff;
+}
+
+.project-card a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.skills-list span {
+  background: linear-gradient(145deg, #00c9ff, #92fe9d);
+  color: #000;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.skills-list span:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.5);
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #00ffff;
+  margin: 1.5rem auto;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  color: #ddd;
+  text-align: left;
+}
+
+.testimonial-card h4 {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #00ffff;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #0a0a0a;
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .skills-list span {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}
+.profile-pic-container {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff90;
+}
+.resume-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(90deg, #00f0ff, #00ffa1);
+  color: #000;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 0 12px #00ffc3;
+  transition: transform 0.2s ease;
+}
+
+.resume-btn:hover {
+  transform: scale(1.05);
+}

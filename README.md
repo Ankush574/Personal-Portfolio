@@ -3,10 +3,6 @@
 Hi, I'm Ankush Yadav — a passionate Full Stack Developer and AI/Data Science enthusiast.  
 This is my personal portfolio built using **HTML, CSS, and JavaScript**, fully responsive and modern.
 
-## 🔗 Live Demo
-
-[🌐 Click here to view live portfolio]( beautiful-centaur-ed08ff.netlify.app) 
-
 ## 🧰 Tech Stack
 
 - **HTML5**
